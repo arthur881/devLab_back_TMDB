@@ -29,7 +29,11 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class=" w-screen bg-bgblue ml-60">
     <div class=" flex flex-col">
         <div class="flex justify-end mt-6 mr-12">
-            <div class="h-10 w-80 bg-gray-400 rounded-3xl flex justify-end mr-4"><img src="image/search.png" alt="search" class="w-6 h-6 mt-2 mr-4"></div>
+            <!-- <input type="text" placeholder="Recherche" class="h-10 w-80 bg-gray-400 rounded-3xl flex justify-end mr-4 text-white"> -->
+            <div class="h-10 w-80 bg-gray-400 rounded-3xl flex justify-between mr-4">
+              <input type="text" placeholder="Recherche" class="w-full bg-gray-400 rounded-3xl text-white text-center">
+              <img src="image/search.png" alt="search" class="w-6 h-6 mt-2 mr-4">
+            </div>
             <img src="image/notification.png" alt="notification" class="h-8 w-8 mt-1">
         </div>
       <div class="flex justify-center">
